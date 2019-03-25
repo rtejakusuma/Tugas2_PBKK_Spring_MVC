@@ -15,6 +15,10 @@ public class HomeController {
 	public String showMyPage() {
 		return "home";
 	}
+	@RequestMapping("/home")
+	public String homePage() {
+		return "home";
+	}
 	
 	@RequestMapping(value = "/formHero", method = RequestMethod.GET)
 	public ModelAndView showHeroForm() {

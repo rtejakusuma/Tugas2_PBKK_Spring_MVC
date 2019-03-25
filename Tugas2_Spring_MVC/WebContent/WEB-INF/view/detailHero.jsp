@@ -7,13 +7,13 @@
 <head>
 	<meta charset="ISO-8859-1">
 	<link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.min.css"/>">
-	<link rel="stylesheet" href="<c:url value="/resources/style.css"/>">
+	<link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
 <title>Tugas 2 PBKK</title>
 </head>
-<body style="background-color:rgba(101, 145, 189, 1); text-align: center;">
-	<h1 style="color: white; font-size: 70px;">Hero Information</h1>
+<body>
+	<h1 style ="color: white; font-size: 70px; text-align: center;vertical-align: middle;">Hero Information</h1>
 	<table>
-		<tr>
+		<tr style="align-content: center;">
 			<td style="font-size: 35px; color: white;">Nama Hero	:</td>
 			<td style="font-size: 35px; color: white;">${namaHero}</td>
 		</tr>
@@ -30,5 +30,7 @@
 			<td style="font-size: 35px; color: white;">${typeHero}</td>
 		</tr>
 	</table>
+	<a href="home">Back</a>
+	
 </body>
 </html>
