@@ -14,9 +14,9 @@
 - Setelah itu controller akan mengembalikan 'detailHero.jsp'
 - Di dalam detailHero.jsp data-data pada model dapat langsung dipanggil dengan sintaks '${nama_atribut}'
 
-## Tampilan Form Entry
+## B. Tampilan Form Entry
 ![Capture](https://user-images.githubusercontent.com/32433590/54902204-57ee9980-4f0b-11e9-8844-874a2523bcf0.PNG)
 ![2](https://user-images.githubusercontent.com/32433590/54902272-7f456680-4f0b-11e9-8e13-b48883fb58e3.PNG)
 
-## Tampilan Hasil Data Entry
+## C. Tampilan Hasil Data Entry
 ![3](https://user-images.githubusercontent.com/32433590/54902301-91270980-4f0b-11e9-89ef-b41fe58a3a81.PNG)
