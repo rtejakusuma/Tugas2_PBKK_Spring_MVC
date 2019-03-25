@@ -30,7 +30,8 @@
 			<td style="font-size: 35px; color: white;">${typeHero}</td>
 		</tr>
 	</table>
-	<a href="home">Back</a>
+	<button style="align-content: center;"><a href="home">BACK</a>
+	</button>
 	
 </body>
 </html>

@@ -11,7 +11,7 @@
 <title>Tugas2 PBKK</title>
 </head>
 <body style="text-align: center; vertical-align: middle;">
-	<h1 style ="color: white; font-size: 70px;">Welcome, Enter The Hero Details</h1>
+	<h1 style ="color: white; font-size: 70px;">Enter Hero's Details</h1>
         <form:form method="POST"
           action="/Tugas2_Spring_MVC/addHero" modelAttribute="hero">
              <table>
