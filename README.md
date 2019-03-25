@@ -1,5 +1,7 @@
 # Tugas2_PBKK_Spring_MVC
-
+# Raden Teja Kusuma 
+# 5111640000012
+# PBKK A
 ## A. Deskripsi Singkat
 - Melalui route '/' controller akan mengembalikan ke halaman "home.jsp"
 - Pada home.jsp terdapat link yang akan merequest '/formHero' ke controller
