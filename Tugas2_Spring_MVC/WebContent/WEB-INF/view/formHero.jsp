@@ -5,28 +5,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+	<meta charset="ISO-8859-1">
+	<link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.min.css"/>">
+	<link rel="stylesheet" href="<c:url value="/resources/style.css"/>">
 <title>Tugas2 PBKK</title>
 </head>
-<body>
-	<h3>Welcome, Enter The Hero Details</h3>
+<body style="background-color:rgba(101, 145, 189, 1); text-align: center;">
+	<h1 style="color: white; font-size: 70px;">Welcome, Enter The Hero Details</h1>
         <form:form method="POST"
           action="/Tugas2_Spring_MVC/addHero" modelAttribute="hero">
              <table>
              	<tr>
-             		<td><form:label path="namaHero"></form:label>Nama Hero</td>
+             		<td style="font-size: 35px; color: white;"><form:label path="namaHero"></form:label>Nama Hero</td>
              		<td><form:input path="namaHero"/></td>
              	</tr>
              	<tr>
-             		<td><form:label path="skillHero"></form:label>Skill Hero</td>
+             		<td style="font-size: 35px; color: white;"><form:label path="skillHero"></form:label>Skill Hero</td>
              		<td><form:input path="skillHero"/></td>
              	</tr>
              	<tr>
-             		<td><form:label path="raceHero"></form:label>Race Hero</td>
+             		<td style="font-size: 35px; color: white;"><form:label path="raceHero"></form:label>Race Hero</td>
              		<td><form:input path="raceHero"/></td>
              	</tr>
              	<tr>
-             		<td><form:label path="typeHero"></form:label>Type Hero</td>
+             		<td style="font-size: 35px; color: white;"><form:label path="typeHero"></form:label>Type Hero</td>
              		<td><form:input path="typeHero"/></td>
              	</tr>
                 <tr>
